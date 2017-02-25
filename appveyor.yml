@@ -8,7 +8,6 @@ matrix:
 
 install:
   - choco install firefox
-  - choco install googlechrome
   - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
